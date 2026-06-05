@@ -1,23 +1,19 @@
 #include <iostream>
-#include <vector>
-#include "classes.h"
+#include <ctime>
 
 using namespace std;
 
-vector<int> accounts; 
+void timer(bool starter){
+    int seond
 
-void addAccount(){
-    int accountNumber = accounts.size();
-    string accountName;
-    account accountNumber;
-    accountNumber.accountNumber = accountNumber;
-    cout << "ENTER YOUR NAME:" <<endl;
-    cin >> accountName;
-    accountNumber.accountName = accountName;
-}
+    while (true) {
+        int s  = saniye / 3600;
+        int dk = (saniye % 3600) / 60;
+        int sn = saniye % 60;
+    }
+    return 0;
+} 
 
 int main(){
-     
-
 
 }
